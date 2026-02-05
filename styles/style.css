@@ -397,8 +397,13 @@ filter: drop-shadow(0 0 3px #ffffff);
 
 .srtf-img {
   width: 50;
+  filter: drop-shadow(0 0 3px #4B0082);
 }
 
+.srtf-img:hover {
+  width: 50;
+  filter: drop-shadow(0 0 3px #ffffff);
+}
 .contact img {
   position: absolute;
   top: 50px;
